@@ -13,15 +13,15 @@
             <link>https://sentreysec.github.io/research/first-blog-post</link>
             <guid>https://sentreysec.github.io/research/first-blog-post</guid>
             <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[h2]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="h2">h2<a href="https://sentreysec.github.io/research/first-blog-post#h2" class="hash-link" aria-label="Direct link to h2" title="Direct link to h2">​</a></h2>
+            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="h2">h2<a href="https://sentreysec.github.io/research/first-blog-post#h2" class="hash-link" aria-label="Direct link to h2" title="Direct link to h2">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="h3">h3<a href="https://sentreysec.github.io/research/first-blog-post#h3" class="hash-link" aria-label="Direct link to h3" title="Direct link to h3">​</a></h3>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="h4">h4<a href="https://sentreysec.github.io/research/first-blog-post#h4" class="hash-link" aria-label="Direct link to h4" title="Direct link to h4">​</a></h4>
-<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<table><thead><tr><th>Column1</th><th>Column2</th></tr></thead><tbody><tr><td>Item1.1</td><td>Item2.1</td></tr></tbody></table>]]></content:encoded>
             <category>Hola</category>
             <category>Hello</category>
-            <category>ola</category>
             <category>привет</category>
         </item>
     </channel>
