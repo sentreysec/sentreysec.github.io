@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_writeups=self.webpackChunkmy_writeups||[]).push([[6762],{4275:e=>{e.exports=JSON.parse('{"title":"Recent Research","items":[{"title":"First Blog Post","permalink":"/research/first-blog-post","unlisted":false,"date":"2025-01-15T00:00:00.000Z"}]}')}}]);
