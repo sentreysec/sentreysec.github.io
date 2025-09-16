@@ -1,0 +1,239 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: left;
+  position: relative;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-primary);
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+}
+
+.heroContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.heroTitle {
+  font-size: 3.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.2 !important;
+  color: var(--ifm-color-primary-color);
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--ifm-color-primary);
+}
+
+.profileContent {
+  max-width: none;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: var(--ifm-color-primary);
+}
+
+.profileContent p {
+  margin-bottom: 1.5rem;
+}
+
+.profileContent ul {
+  margin: 1.5rem 0 2rem 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.profileContent li {
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.profileContent li::before {
+  content: '*';
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.skillCard {
+  background: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--ifm-background-color);
+}
+
+.skillIcon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.skillName {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ifm-background-color);
+}
+
+.socialLinks {
+  margin: 3rem 0 2rem;
+  padding: 2rem;
+  background: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  color: var(--ifm-background-color);
+}
+
+.socialLinksTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-background-color);
+}
+
+.socialLinksSubtitle {
+  margin-bottom: 1.5rem;
+  color: var(--ifm-background-color);
+}
+
+.linkButtons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.socialButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px solid var(--ifm-background-color);
+}
+
+.thanks {
+  margin-top: 3rem;
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--ifm-color-primary);
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive design */
+@media screen and (max-width: 996px) {
+  .heroContainer {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .heroTitle {
+    font-size: 2.8rem !important;
+  }
+  
+  .skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 3rem 0;
+    min-height: auto;
+  }
+  
+  .heroContainer {
+    padding: 0 1rem;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem !important;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .linkButtons {
+    flex-direction: column;
+  }
+  
+  .socialButton {
+    justify-content: center;
+  }
+  
+  .skillsGrid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+  
+  .skillCard {
+    padding: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heroTitle {
+    font-size: 2.2rem !important;
+  }
+  
+  .profileContent {
+    font-size: 1rem;
+  }
+  
+  .socialLinks {
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+}
