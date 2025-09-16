@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_writeups=self.webpackChunkmy_writeups||[]).push([[3841],{7858:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/research","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Latest cybersecurity research and development insights","blogTitle":"Research & Development"}}')}}]);

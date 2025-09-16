@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sentreysec.github.io/research</id>
+    <title>sentreysec Blog</title>
+    <updated>2024-01-15T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sentreysec.github.io/research"/>
+    <subtitle>sentreysec Blog</subtitle>
+    <icon>https://sentreysec.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[first-research-post]]></title>
+        <id>https://sentreysec.github.io/research/2024/01/15/first-research-post</id>
+        <link href="https://sentreysec.github.io/research/2024/01/15/first-research-post"/>
+        <updated>2024-01-15T00:00:00.000Z</updated>
+    </entry>
+</feed>

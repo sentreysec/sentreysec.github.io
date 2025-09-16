@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_writeups=self.webpackChunkmy_writeups||[]).push([[4294],{6796:e=>{e.exports=JSON.parse('{"blogBasePath":"/research","blogTitle":"Research & Development","authorsListPath":"/research/authors"}')}}]);
